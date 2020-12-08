@@ -19,12 +19,9 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Octavi OS stuff.
-$(call inherit-product, vendor/octavi/config/common.mk)
-IS_PHONE := true
+# Inherit some common Corvus OS stuff.
+$(call inherit-product, vendor/corvus/config/common_full_phone.mk)
 TARGET_GAPPS_ARCH := arm64
-OCTAVI_BUILD_TYPE=Official
-OCTAVI_DEVICE_MAINTAINER := ProNoob
 
 # Inherit from oppo CPH1861
 $(call inherit-product, device/oppo/CPH1859/device.mk)
@@ -36,7 +33,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 # Bootanimation
 TARGET_BOOT_ANIMATION_RES := 1080
 
-PRODUCT_NAME := octavi_CPH1859
+PRODUCT_NAME := corvus_CPH1859
 PRODUCT_DEVICE := CPH1859
 PRODUCT_MANUFACTURER := OPPO
 PRODUCT_BRAND := OPPO

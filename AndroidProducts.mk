@@ -16,4 +16,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/octavi_CPH1859.mk
+    $(LOCAL_DIR)/corvus_CPH1859.mk
+
+COMMON_LUNCH_CHOICES := \
+   corvus_CPH1859-user \
+   corvus_CPH1859-userdebug \
+   corvus_CPH1859-eng
