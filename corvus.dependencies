@@ -1,7 +1,18 @@
 [
   {
+    "remote":      "github",
+    "repository":  "PeterCxy/vendor_mediatek_hardware_interfaces",
+    "target_path": "vendor/mediatek/hardware/interfaces",
+    "branch":      "lineage-17.0"
+  },
+  {
     "repository" :  "vendor_oppo_CPH1859",
     "target_path":  "vendor/oppo/CPH1859",
+    "branch"     :  "lineage-18.0"
+  },
+  {
+    "repository" :  "CPH1859/vendor_mediatek_hardware_telephony-ext",
+    "target_path":  "vendor/mediatek/hardware/telephony-ext",
     "branch"     :  "lineage-18.0"
   }
 ]
