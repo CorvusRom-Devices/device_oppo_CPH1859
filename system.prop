@@ -122,3 +122,4 @@ ro.sys.fw.bg_apps_limit=24
 
 # Media
 media.stagefright.thumbnail.prefer_hw_codecs=true
+debug.sf.enable_hwc_vds=0
